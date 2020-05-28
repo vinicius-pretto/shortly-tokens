@@ -10,6 +10,8 @@
   "author": "Vinícius Pretto <vini.prettodasilva@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^8.2.0"
-  }
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {}
 }
