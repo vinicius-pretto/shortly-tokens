@@ -464,8 +464,8 @@
                 "blendMode": "PASS_THROUGH",
                 "absoluteBoundingBox": {
                   "x": -533,
-                  "y": -816,
-                  "width": 685,
+                  "y": -832,
+                  "width": 659,
                   "height": 104
                 },
                 "constraints": {
@@ -488,7 +488,7 @@
                 "strokeWeight": 1,
                 "strokeAlign": "OUTSIDE",
                 "effects": [],
-                "characters": "Font Family Popins",
+                "characters": "font family Popins",
                 "style": {
                   "fontFamily": "Poppins",
                   "fontPostScriptName": "Poppins-Regular",
@@ -512,7 +512,7 @@
             ],
             "absoluteBoundingBox": {
               "x": -595,
-              "y": -883,
+              "y": -899,
               "width": 844,
               "height": 222
             },
@@ -823,6 +823,163 @@
               "a": 1
             },
             "effects": []
+          },
+          {
+            "id": "31:0",
+            "name": "font-weight",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "31:4",
+                "name": "font-weight-bold",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": -545,
+                  "y": -319,
+                  "width": 617,
+                  "height": 104
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "font weight bold",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Bold",
+                  "fontWeight": 700,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "31:6"
+                }
+              },
+              {
+                "id": "31:3",
+                "name": "font-weight-regular",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": -545,
+                  "y": -486,
+                  "width": 709,
+                  "height": 104
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "font weight regular",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Medium",
+                  "fontWeight": 500,
+                  "textAutoResize": "WIDTH_AND_HEIGHT",
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "31:5"
+                }
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": -595,
+              "y": -537,
+              "width": 844,
+              "height": 351
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "effects": []
           }
         ],
         "backgroundColor": {
@@ -901,11 +1058,23 @@
       "name": "font-family-primary",
       "styleType": "TEXT",
       "description": ""
+    },
+    "31:6": {
+      "key": "e714f40b814dce9ab1de1cab72f8b58875dffa14",
+      "name": "font-weight-bold",
+      "styleType": "TEXT",
+      "description": ""
+    },
+    "31:5": {
+      "key": "4d5bb16060fd62653145d81cab322bbbd07d93d5",
+      "name": "font-weight-regular",
+      "styleType": "TEXT",
+      "description": ""
     }
   },
   "name": "shortly tokens",
-  "lastModified": "2020-05-29T20:25:03.913085Z",
+  "lastModified": "2020-05-29T20:46:08.482486Z",
   "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/f51b6307-e6b0-49cf-bc77-261e3616a905?Expires=1591574400&Signature=U5avuJLTS3~hj18eteqbIlLmyS6w9t0U5e0VtFNAMu-af4fEP8ZOU1m~5FAIRloz-Rmo-hNL81qqtgmSm4YSldsXnBs04VRnzZ9JdgfhcUrGc7bmYtsE22bSp6S-NK6RZCJX6uB867P88nA3Y3NtwDa639gg8ebrbbPv9YnY2sWltJR83jd-WjkySEymZJ4uUFgImm1qIOEM~q50c5L4gP3PouqS8RSUZjxX4A9xYq15J1yZLxKVHvQ9-MpnChT31SekE2dC9gMIXWFXv0v1V~0CUxSCi24UBWwSC6t-DLJ7-GofTsfIiQ35pm1OE~7aLSUleNCbf3OIoK0SZYYqfQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "341140794",
+  "version": "341161129",
   "role": "owner"
 }
