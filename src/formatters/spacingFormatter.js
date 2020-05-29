@@ -1,9 +1,5 @@
 const _ = require("lodash");
-
-const convertToRem = (pxUnit) => {
-  const remUnit = pxUnit / 16;
-  return `${remUnit}rem`;
-};
+const convertToRem = require("../utils/convertToRem");
 
 const parseSpacing = (spacing) => {
   return {
