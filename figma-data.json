@@ -61,7 +61,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:2",
@@ -98,7 +103,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:3",
@@ -135,7 +145,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:4",
@@ -172,7 +187,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:5",
@@ -209,7 +229,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:6",
@@ -246,7 +271,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:7",
@@ -283,7 +313,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:8",
@@ -320,7 +355,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               },
               {
                 "id": "20:9",
@@ -357,7 +397,12 @@
                 },
                 "effects": [],
                 "cornerRadius": 4,
-                "rectangleCornerRadii": [4, 4, 4, 4]
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
               }
             ],
             "absoluteBoundingBox": {
@@ -736,7 +781,7 @@
             "absoluteBoundingBox": {
               "x": -595,
               "y": -1281,
-              "width": 562,
+              "width": 844,
               "height": 243
             },
             "constraints": {
@@ -1248,6 +1293,496 @@
               "a": 1
             },
             "effects": []
+          },
+          {
+            "id": "32:5",
+            "name": "border-radius",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "32:6",
+                "name": "border-radius-base",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 442,
+                  "y": -1210,
+                  "width": 100,
+                  "height": 100
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.5619444847106934,
+                      "g": 0.6822667121887207,
+                      "b": 0.9916666746139526,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "effects": [],
+                "cornerRadius": 4,
+                "rectangleCornerRadii": [
+                  4,
+                  4,
+                  4,
+                  4
+                ]
+              },
+              {
+                "id": "32:7",
+                "name": "border-radius-circle",
+                "type": "RECTANGLE",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 622,
+                  "y": -1210,
+                  "width": 100,
+                  "height": 100
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.5619444847106934,
+                      "g": 0.6822667121887207,
+                      "b": 0.9916666746139526,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "effects": [],
+                "cornerRadius": 50,
+                "rectangleCornerRadii": [
+                  50,
+                  50,
+                  50,
+                  50
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 388,
+              "y": -1281,
+              "width": 853,
+              "height": 243
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "effects": []
+          },
+          {
+            "id": "33:0",
+            "name": "z-index",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "33:6",
+                "name": "z-index-top",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -511,
+                  "width": 569,
+                  "height": 999
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index top",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              },
+              {
+                "id": "33:5",
+                "name": "z-index-modal",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -386,
+                  "width": 569,
+                  "height": 400
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index modal",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              },
+              {
+                "id": "33:4",
+                "name": "z-index-toast",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -520,
+                  "width": 569,
+                  "height": 300
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index toast",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              },
+              {
+                "id": "33:3",
+                "name": "z-index-tooltip",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -646,
+                  "width": 569,
+                  "height": 200
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index tooltip",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              },
+              {
+                "id": "33:2",
+                "name": "z-index-masked",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -748,
+                  "width": 569,
+                  "height": 100
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index masked",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              },
+              {
+                "id": "33:1",
+                "name": "z-index-default",
+                "type": "TEXT",
+                "blendMode": "PASS_THROUGH",
+                "absoluteBoundingBox": {
+                  "x": 446,
+                  "y": -849,
+                  "width": 533,
+                  "height": 1
+                },
+                "constraints": {
+                  "vertical": "TOP",
+                  "horizontal": "LEFT"
+                },
+                "fills": [
+                  {
+                    "blendMode": "NORMAL",
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 0,
+                      "a": 1
+                    }
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "OUTSIDE",
+                "effects": [],
+                "characters": "z index default",
+                "style": {
+                  "fontFamily": "Poppins",
+                  "fontPostScriptName": "Poppins-Regular",
+                  "fontWeight": 400,
+                  "fontSize": 74,
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "CENTER",
+                  "letterSpacing": 0,
+                  "lineHeightPx": 104.0625,
+                  "lineHeightPercent": 120,
+                  "lineHeightPercentFontSize": 140.625,
+                  "lineHeightUnit": "FONT_SIZE_%"
+                },
+                "characterStyleOverrides": [],
+                "styleOverrideTable": {},
+                "styles": {
+                  "text": "23:0"
+                }
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 388,
+              "y": -955,
+              "width": 853,
+              "height": 1419
+            },
+            "constraints": {
+              "vertical": "TOP",
+              "horizontal": "LEFT"
+            },
+            "clipsContent": true,
+            "background": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "fills": [
+              {
+                "blendMode": "NORMAL",
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "backgroundColor": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "effects": []
           }
         ],
         "backgroundColor": {
@@ -1371,8 +1906,8 @@
     }
   },
   "name": "shortly tokens",
-  "lastModified": "2020-05-29T21:08:31.00408Z",
+  "lastModified": "2020-05-29T21:39:04.415177Z",
   "thumbnailUrl": "https://s3-alpha-sig.figma.com/thumbnails/84f6bd71-e20e-47b3-bdc8-c741ca110f4a?Expires=1591574400&Signature=c0KZPWXWSJrQ2PNfG553frOUWAENe5DcEii4HazeKmY9~P9s3w-HAkgXauxPqiLfIGegIamInExEim4RCJP7KqMsjM6WMvdSKdpkGCFAuDr2VJA~ROCmAYVImy-j7y7TF19JpL8eVhO38Wdtgu0jjgcO3BsWilDsQXrrcbhP5TcD9RGB4udFUXrm8bOOTa~oakwZsPdDwOfZa-GT~pDlia3RJxBuU6IX~PL4bmlddXd9QWjvgahsiyuJrdN0YzETvKNpPVvVuQ9aNzp74XmjRieaqp5zhDGgB-F8235nXWsS194s5Rw5FqTtdX3CPjPY3DfmSXYwY~6HUwroHIpjCw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
-  "version": "341161129",
+  "version": "341179669",
   "role": "owner"
 }
