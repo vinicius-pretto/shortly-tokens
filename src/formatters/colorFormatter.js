@@ -1,7 +1,7 @@
 const _ = require("lodash");
 
 const parseFloatToInt = (float) => {
-  return Math.ceil(float * 255);
+  return Math.round(float * 255);
 };
 
 const parseIntToHex = (int) => {

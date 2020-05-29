@@ -1,6 +1,11 @@
 const figmaData = require("./figma-data.json");
 const colorFormatter = require("./src/formatters/colorFormatter");
+const spacingFormatter = require("./src/formatters/spacingFormatter");
 
-const colors = colorFormatter.getTokens(figmaData);
-
-console.log(JSON.stringify(colors, null, 2));
+const colorTokens = colorFormatter.getTokens(figmaData);
+const spacingTokens = spacingFormatter.getTokens(figmaData);
+const tokens = {
+  ...colorTokens,
+  ...spacingTokens,
+};
+console.log(JSON.stringify(tokens, null, 2));
