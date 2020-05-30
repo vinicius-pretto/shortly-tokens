@@ -1,7 +1,13 @@
-# Shortly tokens
+![Shortly UI tokens](src/images/shortly-ui.png)
 
-This project is responsible to extract tokens from Figma API.<br>
-The tokens are stored at `tokens` folder.
+<p><em>JSON · SCSS</em></p>
+
+Design tokens for Shortly
+
+- colors
+- typography
+- borders
+- z-index
 
 ## Setup
 
