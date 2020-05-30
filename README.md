@@ -1,6 +1,6 @@
 ![Shortly UI tokens](src/images/shortly-ui.png)
 
-<p><em>JSON · SCSS</em></p>
+<p><em>JSON · SCSS · CSS</em></p>
 
 Design tokens for Shortly
 
