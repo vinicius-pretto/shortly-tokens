@@ -14,6 +14,7 @@ figlet("Shortly UI", (err, data) => {
   tokenizer.sync().then(() => {
     console.log("\nAdded tokens:");
     console.log(`  - ${config.tokensName}.json`);
+    console.log(`  - ${config.tokensName}.scss`);
     console.log(chalk.cyan("\nTokens updated ✅"));
   });
 });
