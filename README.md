@@ -1,6 +1,8 @@
-![Shortly UI tokens](src/images/shortly-ui.png)
+# Shortly Tokens
 
-[JSON](tokens/shortly-tokens.json) · [SCSS](tokens/shortly-tokens.scss) · [CSS](tokens/shortly-tokens.css)
+This is just an example of design tokens.
+
+**JSON** · **SCSS** · **CSS**
 
 Design tokens for Shortly
 
@@ -59,4 +61,10 @@ $ npm run tokens:sync
   "z-index-masked": 100,
   "z-index-default": 1
 }
+```
+
+## Tokens in json
+
+```
+https://unpkg.com/shortly-ui@0.0.1/dist/shortly-tokens.json
 ```

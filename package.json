@@ -1,12 +1,16 @@
 {
   "name": "shortly-tokens",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tokens:sync": "node scripts/sync.js"
   },
+  "unpkg": "dist/shortly-tokens.json",
+  "files": [
+    "dist/"
+  ],
   "keywords": [],
   "author": "Vinícius Pretto <vini.prettodasilva@gmail.com>",
   "license": "ISC",
