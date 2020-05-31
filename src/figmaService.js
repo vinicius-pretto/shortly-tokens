@@ -8,9 +8,9 @@ const httpClient = axios.create({
   },
 });
 
-const getFile = (fileId) => {
+const getFile = (fileId, nodeId) => {
   return httpClient
-    .get(`${config.figmaUrl}/files/${fileId}`)
+    .get(`${config.figmaUrl}/files/${fileId}?ids=${nodeId}`)
     .then((response) => response.data);
 };
 

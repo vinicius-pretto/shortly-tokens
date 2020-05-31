@@ -45,7 +45,10 @@ const writeCssFileTokens = (jsonTokens) => {
 
 const sync = async () => {
   try {
-    const figmaFile = await figmaService.getFile(config.figmaFileId);
+    const figmaFile = await figmaService.getFile(
+      config.figmaFileId,
+      config.figmaFileNodeId
+    );
     const jsonTokens = extractTokens(figmaFile);
     await writeJsonFileTokens(jsonTokens);
     await writeSassFileTokens(jsonTokens);
