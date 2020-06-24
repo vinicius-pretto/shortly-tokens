@@ -5,15 +5,15 @@
   --color-dark: #232127;
   --color-dark-blue: #35323e;
   --color-error: #f46262;
-  --color-secondary: #3b3054;
-  --color-primary: #2bd0d0;
+  --color-secondary: #fda609;
+  --color-primary: #004587;
   --color-violet-lighter: #f0f1f6;
   --spacing-xl: 4rem;
   --spacing-lg: 2rem;
   --spacing-md: 1rem;
   --spacing-sm: 0.5rem;
   --spacing-xs: 0.25rem;
-  --font-family-primary: Poppins;
+  --font-family-primary: Poppins, sans-serif;
   --font-weight-bold: 700;
   --font-weight-regular: 500;
   --font-size-xxl: 4.625rem;

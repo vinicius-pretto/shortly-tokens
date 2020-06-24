@@ -4,7 +4,9 @@ const convertToRem = require("../utils/convertToRem");
 const getFontFamilyTokens = (frames) => {
   const fontFrames = frames.find((frame) => frame.name === "font-family");
   const fonts = fontFrames.children.filter((frame) => frame.type === "TEXT");
-  return fonts.map((font) => ({ [font.name]: font.style.fontFamily }));
+  return fonts.map((font) => ({
+    [font.name]: `${font.style.fontFamily}, sans-serif`,
+  }));
 };
 
 const getFontWeightTokens = (frames) => {
